@@ -1,5 +1,5 @@
 # Sonification of the ISS
-Using real-time data on the ISS's position, this Max/MSP patch calculates the user's distance from the space station, which in turn influences sound synthesis, modulation and effects. The patch audibly monitors the distance between a location on a map and the International Space Station, using sonification, the process of conveying information through sound without speech. [See a demonstration of the patch in use here.](https://www.thomaseg.dk/)
+Using real-time data on the ISS's position through an API call, this Max/MSP patch calculates the user's distance from the space station, which in turn influences sound synthesis, modulation and effects. The patch sonifies the distance between a location on the map and the International Space Station, conveying the information through sound without speech. [See a demonstration of the patch in use here.](https://www.thomaseg.dk/)
 
 ## Maxpatch overview
 ![Patch overview](images/patch.png)
@@ -10,5 +10,5 @@ Using real-time data on the ISS's position, this Max/MSP patch calculates the us
 ## Visualisation of current position
 ![Visual position of the ISS](images/visual-position.png)
 
-## Calculating the distance from user click to the ISS
+## Calculating the distance from click-input to the ISS
 ![Visual position of the ISS](images/sphere-position.png)
